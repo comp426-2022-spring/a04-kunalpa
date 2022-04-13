@@ -20,7 +20,7 @@ if (row === undefined) {
     time INTEGER, method TEXT, url TEXT, protocol TEXT, httpversion TEXT, 
     status INTEGER, referer TEXT, useragent TEXT );
     `;
-// Execute SQL commands that we just wrote above.
+// Execute SQL commands that we just wrote above. 
     db.exec(sqlInit); 
 } else { 
 // Since the database already exists, echo that to the console.
