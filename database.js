@@ -24,7 +24,7 @@ if (row === undefined) {
     `;  
 
 // Execute SQL commands that we just wrote above.     
-    db.exec(sqlInit);  
+    db.exec(sqlInit); 
 }
 else {
     // Since the database already exists, echo that to the console.
