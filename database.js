@@ -27,5 +27,6 @@ else {
     // Since the database already exists, echo that to the console.
     console.log('Database exists.')
 } 
+
 // Export all of the above as a module so that we can use it elsewhere.
 module.exports = db
