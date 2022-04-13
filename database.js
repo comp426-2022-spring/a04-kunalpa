@@ -10,7 +10,6 @@ const db = new Database('log.db');
 const stmt = db.prepare(`SELECT name FROM sqlite_master WHERE type='table' and name='accesslog';`);
 // Define row using `get()` from better-sqlite3
 let row = stmt.get();  
-
 // Check if there is a table. If row is undefined then no table exists.
 if (row === undefined) {
     // Echo information about what you are doing to the console.
