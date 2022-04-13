@@ -22,7 +22,7 @@ if (row === undefined) {
     status INTEGER, referer TEXT, useragent TEXT );
     `;
 // Execute SQL commands that we just wrote above.
-    db.exec(sqlInit);
+    db.exec(sqlInit); 
 } else { 
 // Since the database already exists, echo that to the console.
     console.log('Database exists.')
