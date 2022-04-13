@@ -23,7 +23,7 @@ if (row === undefined) {
     status INTEGER, referer TEXT, useragent TEXT );
     `;  
 
-// Execute SQL commands that we just wrote above.   
+// Execute SQL commands that we just wrote above.    
     db.exec(sqlInit);  
 }
 else {
