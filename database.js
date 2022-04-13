@@ -11,7 +11,7 @@ const stmt = db.prepare(`SELECT name FROM sqlite_master WHERE type='table' and n
 // Define row using `get()` from better-sqlite3
 let row = stmt.get();  
 // Check if there is a table. If row is undefined then no table exists.
-if (row === undefined) {
+if (row === undefined) { 
 // Echo information about what you are doing to the console.
     console.log('Your database appears to be empty');
 // Set a const that will contain your SQL commands to initialize the database.
