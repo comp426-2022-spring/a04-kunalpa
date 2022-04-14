@@ -2,7 +2,7 @@
 "use strict";
 // Require better-sqlite.
 const Database = require('better-sqlite3'); 
-    
+     
 // Connect to a database or create one if it doesn't exist yet.   
 const db = new Database('log.db'); 
      
