@@ -22,7 +22,7 @@ const server = app.listen(HTTP_PORT, () => {
 // if run server.js with option --help, should only show the below
 // and exit with code 0
 const help = (`
-server.js [options]  
+server.js [options] 
   --por		Set the port number for the server to listen on. Must be an integer
               	between 1 and 65535.
   --debug	If set to true, creates endlpoints /app/log/access/ which returns
