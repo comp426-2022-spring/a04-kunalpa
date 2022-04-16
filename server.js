@@ -32,7 +32,7 @@ server.js [options]
   --log		If set to false, no log files are written. Defaults to true.
 		Logs are always written to database.
   --help	Return this message and exit.    
-`);   
+`);    
             
 // If --help or -h, echo help text to STDOUT and exit
 if (argument.help || argument.h) {
