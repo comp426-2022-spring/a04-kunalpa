@@ -8,7 +8,7 @@ const app = express()
 
 // Make Express use its own built-in body parser for both urlencoded and JSON body data.
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json()); 
 
 var argument = minimist(process.argv.slice(2));
 var name = 'port';
