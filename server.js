@@ -4,7 +4,7 @@ var morgan = require('morgan');
 var fs = require('fs');
 const db = require("./database.js");
 
-const app = express()   
+const app = express()    
 
 // Make Express use its own built-in body parser for both urlencoded and JSON body data.
 app.use(express.urlencoded({ extended: true }));
