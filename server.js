@@ -22,17 +22,17 @@ const server = app.listen(HTTP_PORT, () => {
 // if run server.js with option --help, should only show the below
 // and exit with code 0
 const help = (`
-server.js [options]   
+server.js [options]
   --por		Set the port number for the server to listen on. Must be an integer
                 between 1 and 65535. 
   --debug	If set to true, creates endlpoints /app/log/access/ which returns
               	a JSON access log from the database and /app/error which throws 
-              	an error with the message "Error test successful." Defaults to  
+              	an error with the message "Error test successful." Defaults to 
 		false. 
   --log		If set to false, no log files are written. Defaults to true.
 		Logs are always written to database.
-  --help	Return this message and exit.    
-`);         
+  --help	Return this message and exit.
+`);
 
 // If --help or -h, echo help text to STDOUT and exit
 if (argument.help || argument.h) {
